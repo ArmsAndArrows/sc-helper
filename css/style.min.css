@@ -157,7 +157,6 @@ h1 {
 }
 .tier {
   display: flex;
-  min-height: 15rem;
   max-height: 33%;
   overflow: hidden;
   width: 100%;
