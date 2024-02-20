@@ -49,7 +49,7 @@
         "weak": { "1": "Phoenix", "2": "Ghost", "3": "Corruptor" }
       },
       "Siege Tank": {
-        "img_path": "SiegeTank.webp",
+        "img_path": "Siege Tank.webp",
         "strong": { "1": "Marine", "2": "Roach", "3": "Stalker" },
         "weak": { "1": "Banshee", "2": "Mutalisk", "3": "Immortal" }
       },
