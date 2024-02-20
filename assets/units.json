@@ -1,0 +1,250 @@
+{
+  "Terran": {
+    "tier_1": {
+      "Marine": {
+        "img_path": "Marine.webp",
+        "strong": { "1": "Hydralisk", "2": "Immortal", "3": "Marauder" },
+        "weak": { "1": "Baneling", "2": "Colossus", "3": "Siege Tank" }
+      },
+      "Marauder": {
+        "img_path": "Marauder.webp",
+        "strong": { "1": "Stalker", "2": "Roach", "3": "Thor" },
+        "weak": { "1": "Marine", "2": "Zergling", "3": "Zealot" }
+      },
+      "Reaper": {
+        "img_path": "Reaper.webp",
+        "strong": { "1": "xz", "2": "xz", "3": "xz" },
+        "weak": { "1": "Stalker", "2": "Roach", "3": "Marauder" }
+      }
+    },
+    "tier_2": {
+      "Ghost": {
+        "img_path": "Ghost.webp",
+        "strong": { "1": "High Templar", "2": "Raven", "3": "Infestor" },
+        "weak": { "1": "Stalker", "2": "Marauder", "3": "Zergling" }
+      },
+      "Hellbat": {
+        "img_path": "Hellbat.webp",
+        "strong": { "1": "Zergling", "2": "Zealot", "3": "Marine" },
+        "weak": { "1": "Baneling", "2": "Marauder", "3": "Stalker" }
+      },
+      "Helion": {
+        "img_path": "Hellion.webp",
+        "strong": { "1": "Marine", "2": "Zealot", "3": "Zergling" },
+        "weak": { "1": "Stalker", "2": "Roach", "3": "Marauder" }
+      },
+      "Banshee": {
+        "img_path": "Banshee.webp",
+        "strong": { "1": "Colossus", "2": "Ultralisk", "3": "Siege Tank" },
+        "weak": { "1": "Hydralisk", "2": "Phoenix", "3": "Viking" }
+      },
+      "Viking": {
+        "img_path": "Viking.webp",
+        "strong": { "1": "Battlecruiser", "2": "Brood Lord", "3": "Tempest" },
+        "weak": { "1": "Hydralisk", "2": "Marine", "3": "Stalker" }
+      },
+      "Raven": {
+        "img_path": "Raven.webp",
+        "strong": { "1": "Banshee", "2": "Roach", "3": "Dark Templar" },
+        "weak": { "1": "Phoenix", "2": "Ghost", "3": "Corruptor" }
+      },
+      "Siege Tank": {
+        "img_path": "SiegeTank.webp",
+        "strong": { "1": "Marine", "2": "Roach", "3": "Stalker" },
+        "weak": { "1": "Banshee", "2": "Mutalisk", "3": "Immortal" }
+      },
+      "Cyclone": {
+        "img_path": "Cyclone.webp",
+        "strong": { "1": "Marauder", "2": "Roach", "3": "Adept" },
+        "weak": { "1": "Siege Tank", "2": "Zergling", "3": "Immortal" }
+      },
+      "Widow mine": {
+        "img_path": "Widow Mine.webp",
+        "strong": {
+          "1": "Mutalisk",
+          "2": "Zergling",
+          "3": "Adept"
+        },
+        "weak": { "1": "Marauder", "2": "Ravager", "3": "Immortal" }
+      },
+      "Liberator": {
+        "img_path": "Liberator.webp",
+        "strong": { "1": "Ultralisk", "2": "Phoenix", "3": "Siege Tank" },
+        "weak": { "1": "Corruptor", "2": "Void Ray", "3": "Viking" }
+      }
+    },
+    "tier_3": {
+      "Thor": {
+        "img_path": "Thor.webp",
+        "strong": { "1": "Marine", "2": "Mutalisk", "3": "Stalker" },
+        "weak": { "1": "Marauder", "2": "Zergling", "3": "Immortal" }
+      },
+      "Battlecruiser": {
+        "img_path": "Battlecruiser.webp",
+        "strong": { "1": "Carrier", "2": "Mutalisk", "3": "Thor" },
+        "weak": { "1": "Viking", "2": "Void Ray", "3": "Corruptor" }
+      }
+    }
+  },
+  "Protos": {
+    "tier_1": {
+      "Zealot": {
+        "img_path": "Zealot.webp",
+        "strong": { "1": "Marauder", "2": "Immortal", "3": "Zergling" },
+        "weak": { "1": "Hellion", "2": "Colossus", "3": "Roach" }
+      },
+      "Stalker": {
+        "img_path": "Stalker.webp",
+        "strong": { "1": "Reaper", "2": "Void Ray", "3": "Mutalisk" },
+        "weak": { "1": "Marauder", "2": "Zergling", "3": "Immortal" }
+      },
+      "Sentry": {
+        "img_path": "Sentry.webp",
+        "strong": { "1": "Zealot", "2": "Zergling", "3": "Marine" },
+        "weak": { "1": "Stalker", "2": "Reaper", "3": "Hydralisk" }
+      },
+      "Adept": {
+        "img_path": "Adept.webp",
+        "strong": { "1": "Marine", "2": "Zergling", "3": "Zealot" },
+        "weak": { "1": "Roach", "2": "Stalker", "3": "Marauder" }
+      }
+    },
+    "tier_2": {
+      "Immortal": {
+        "img_path": "Immortal.webp",
+        "strong": { "1": "Siege Tank", "2": "Stalker", "3": "Roach" },
+        "weak": { "1": "Marine", "2": "Zealot", "3": "Zergling" }
+      },
+      "Phoenix": {
+        "img_path": "Phoenix.webp",
+        "strong": { "1": "Banshee", "2": "Void Ray", "3": "Mutalisk" },
+        "weak": { "1": "Battlecruiser", "2": "Carrier", "3": "Corruptor" }
+      },
+      "Dark Templar": {
+        "img_path": "Dark Templar.webp",
+        "strong": { "1": "xz", "2": "xz", "3": "xz" },
+        "weak": { "1": "xz", "2": "xz", "3": "Xz" }
+      },
+      "Disruptor": {
+        "img_path": "Disruptor.webp",
+        "strong": { "1": "Marauder", "2": "Hydralisk", "3": "Stalker" },
+        "weak": { "1": "Thor", "2": "Ultralisk", "3": "Tempest" }
+      },
+
+      "Archon": {
+        "img_path": "Archon.webp",
+        "strong": { "1": "Marine", "2": "Mutalisk", "3": "Adept" },
+        "weak": { "1": "Immortal", "2": "Hydralisk", "3": "Thor" }
+      },
+      "High Templar": {
+        "img_path": "High Templar.webp",
+        "strong": { "1": "Marine", "2": "Sentry", "3": "Hydralisk" },
+        "weak": { "1": "Ghost", "2": "Colossus", "3": "Roach" }
+      },
+      "Void Ray": {
+        "img_path": "Void Ray.webp",
+        "strong": { "1": "Corruptor", "2": "Battlecruiser", "3": "Tempest" },
+        "weak": { "1": "Viking", "2": "Mutalisk", "3": "Phoenix" }
+      }
+    },
+    "tier_3": {
+      "Colossus": {
+        "img_path": "Colossus.webp",
+        "strong": { "1": "Marine", "2": "Zealot", "3": "Zergling" },
+        "weak": { "1": "Viking", "2": "Corruptor", "3": "Tempest" }
+      },
+      "Tempest": {
+        "img_path": "Tempest.webp",
+        "strong": { "1": "Liberator", "2": "Brood Lord", "3": "Colossus" },
+        "weak": { "1": "Viking", "2": "Corruptor", "3": "Void Ray" }
+      },
+      "Carrier": {
+        "img_path": "Carrier.webp",
+        "strong": { "1": "Siege Tank", "2": "Mutalisk", "3": "Phoenix" },
+        "weak": { "1": "Viking", "2": "Corruptor", "3": "Tempest" }
+      }
+    }
+  },
+  "Zerg": {
+    "tier_1": {
+      "Zergling": {
+        "img_path": "Zergling.webp",
+        "strong": { "1": "Marauder", "2": "Stalker", "3": "Hydralisk" },
+        "weak": { "1": "Hellion", "2": "Colossus", "3": "Baneling" }
+      },
+      "Baneling": {
+        "img_path": "Baneling.webp",
+        "strong": { "1": "Marine", "2": "Zergling", "3": "Zealot" },
+        "weak": { "1": "Marauder", "2": "Roach", "3": "Stalker" }
+      },
+      "Roach": {
+        "img_path": "Roach.webp",
+        "strong": { "1": "Hellion", "2": "Zealot", "3": "Zergling" },
+        "weak": { "1": "Marauder", "2": "Ultralisk", "3": "Immortal" }
+      },
+      "Ravager": {
+        "img_path": "Ravager.webp",
+        "strong": { "1": "Siege Tank", "2": "Lurker", "3": "Sentry" },
+        "weak": { "1": "Marauder", "2": "Ultralisk", "3": "Immortal" }
+      },
+      "Queen": {
+        "img_path": "Queen.webp",
+        "strong": { "1": "Void Ray", "2": "Hellion", "3": "Mutalisk" },
+        "weak": { "1": "Zealot", "2": "Marine", "3": "Zergling" }
+      }
+    },
+    "tier_2": {
+      "Hydralisk": {
+        "img_path": "Hydralisk.webp",
+        "strong": { "1": "Banshee", "2": "Mutalisk", "3": "Void Ray" },
+        "weak": { "1": "Siege Tank", "2": "Zergling", "3": "Colossus" }
+      },
+      "Lurker": {
+        "img_path": "Lurker.webp",
+        "strong": { "1": "Marine", "2": "Hydralisk", "3": "Zealot" },
+        "weak": { "1": "Siege Tank", "2": "Ultralisk", "3": "Disruptor" }
+      },
+      "Mutalisk": {
+        "img_path": "Mutalisk.webp",
+        "strong": { "1": "Brood Lord", "2": "Viking", "3": "Void Ray" },
+        "weak": {
+          "1": "Corruptor",
+          "2": "Phoenix",
+          "3": "Liberator"
+        }
+      },
+      "Corruptor": {
+        "img_path": "Corruptor.webp",
+        "strong": { "1": "Battlecruiser", "2": "Mutalisk", "3": "Phoenix" },
+        "weak": { "1": "Viking", "2": "Hydralisk", "3": "Void Ray" }
+      },
+      "Infestor": {
+        "img_path": "Infestor.webp",
+        "strong": { "1": "Marine", "2": "Immortal", "3": "Mutalisk" },
+        "weak": { "1": "Ghost", "2": "Ultralisk", "3": "High Templar" }
+      },
+      "Swarm Host": {
+        "img_path": "Swarm Host.webp",
+        "strong": { "1": "xz", "2": "xz", "3": "xz" },
+        "weak": { "1": "Banshee", "2": "Mutalisk", "3": "Stalker" }
+      }
+    },
+    "tier_3": {
+      "Viper": {
+        "img_path": "Viper.webp",
+        "strong": { "1": "Siege Tank", "2": "Colossus", "3": "Hydralisk" },
+        "weak": { "1": "Viking", "2": "Mutalisk", "3": "Phoenix" }
+      },
+      "Ultralisk": {
+        "img_path": "Ultralisk.webp",
+        "strong": { "1": "Marine", "2": "Zergling", "3": "Zealot" },
+        "weak": { "1": "Ghost", "2": "Brood Lord", "3": "Immortal" }
+      },
+      "Brood Lord": {
+        "img_path": "Brood Lord.webp",
+        "strong": { "1": "Marine", "2": "Hydralisk", "3": "Stalker" },
+        "weak": { "1": "Corruptor", "2": "Viking", "3": "Void Ray" }
+      }
+    }
+  }
+}

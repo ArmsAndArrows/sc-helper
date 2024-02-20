@@ -1,0 +1,288 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  text-rendering: optimizeSpeed;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+@keyframes opaqueIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+* {
+  font-size: 62.5%;
+}
+@font-face {
+  src: url("../fonts/Kodchasan-Bold.ttf");
+  font-family: Kodchasan;
+  font-weight: 800;
+}
+@font-face {
+  src: url("../fonts/Lexend-Bold.ttf");
+  font-family: Lexend;
+  font-weight: 800;
+}
+.m-auto {
+  margin-inline: auto;
+}
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+body {
+  background-color: #000;
+}
+.wrapper {
+  min-width: 320px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+header {
+  background-color: #0a162f;
+  height: 5rem;
+  box-shadow: 0px 10px -2px green;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+  margin: 0 2px;
+  list-style: none;
+}
+.nav__item {
+  margin-top: 0.8rem;
+  background-color: #073178;
+  border: 3px solid #0a6eb9;
+  border-radius: 5px 0 5px 0;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-between;
+  width: 33.3333333333%;
+  transition: 0.3s ease;
+}
+.nav__item--active {
+  background-color: #085342;
+  border: 3px solid #04fba9;
+}
+.nav__item img {
+  margin-left: 0.5rem;
+}
+.nav__item span {
+  font-family: "Kodchasan";
+  margin-right: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+h1 {
+  display: none;
+}
+.tiers {
+  background-color: #000;
+  height: calc(100vh - 5rem);
+}
+.tier {
+  display: flex;
+  min-height: 25rem;
+  max-height: 33.3333333333%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.tier--one h2 {
+  color: #0a6eb9;
+}
+.tier--two h2 {
+  color: #d9ab3f;
+}
+.tier--three h2 {
+  color: #04fba9;
+}
+.tier__title {
+  background-color: #262422;
+  border-bottom: 1px solid #020811;
+  display: flex;
+  flex-direction: column;
+}
+.tier__title img {
+  margin: auto 0.8rem;
+}
+.tier__unitcards {
+  scrollbar-width: none;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  flex: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.tier__unitcard {
+  display: flex;
+  background-color: #000;
+  margin: 0.1rem;
+  border: 1px solid #262422;
+  border-radius: 5px 0 5px 0;
+  height: 33%;
+}
+.tier__hero {
+  display: grid;
+  place-content: center;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.tier__hero--two h2 {
+  color: #e2e249;
+}
+.tier__hero h2 {
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  animation: opaqueIn 0.2s ease;
+}
+.tier__hero img {
+  width: 5rem;
+  animation: opaqueIn 0.4s ease;
+}
+.tier__ability {
+  width: 10.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.tier__ability h3 {
+  font-family: "Kodchasan", sans-serif;
+  position: relative;
+  left: 2px;
+  animation: opaqueIn 0.2s ease;
+}
+.tier__ability h3::before {
+  content: "";
+  position: absolute;
+  background-color: #979898;
+  opacity: 0.4;
+  width: 2.7rem;
+  height: 1px;
+  bottom: -1px;
+  left: 1px;
+}
+.tier__ability ul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.tier__ability ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tier__ability ul li img {
+  width: 2rem;
+  margin-left: 0.2rem;
+}
+.tier__ability ul li span {
+  margin-right: 0.7rem;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  animation: opaqueIn 0.2s ease;
+}
+.tier__strong {
+  color: #04fba9;
+  position: relative;
+}
+.tier__strong::before {
+  content: "";
+  position: absolute;
+  background-color: #979898;
+  opacity: 40%;
+  width: 0.1rem;
+  height: 64%;
+  bottom: 0;
+}
+.tier__weak {
+  color: #e2e249;
+  position: relative;
+}
+.tier__weak::before {
+  content: "";
+  position: absolute;
+  background-color: #979898;
+  opacity: 40%;
+  width: 0.1rem;
+  height: 64%;
+  top: 0;
+}
